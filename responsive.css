@@ -1,0 +1,143 @@
+@media screen and (max-width:425px){
+
+    /* nav-start */
+    .nav-container{
+    flex-direction: column;
+}
+
+.nav-item-container{
+
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item-container a{
+
+    margin-top: 15px;
+    font-size: 16px;
+    
+    
+}
+
+.login-btn{
+    margin-bottom: 10px;
+    
+}
+
+/* nav-end */
+
+/* banner section start */
+.banner-container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.banner-img{
+    width: 100%;
+
+}
+
+.banner-text{
+    width: 100%;
+    text-align: center;
+} 
+
+.banner-text h2{
+    font-size: 32px;
+
+}
+
+.br{
+    font-size: 60px;
+}
+
+.banner-text p{
+    font-size: 10px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.banner-btn button{
+    border-radius: 48px;
+    padding: 10px 19px;
+    font-size: 12px;
+}
+
+.banner-btn{
+    margin-top: 30px;
+    
+}
+/* banner section end */
+
+.gamer-container{
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.sec-gamer-info h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sec-gamer-info p{
+    text-align: center;
+    font-size: 11px;
+}
+
+.down-info button{
+    padding: 12px 13px;
+    font-size: 8px;
+}
+
+.down-info span{
+    font-size: 20px;
+}
+.down-info {
+    text-align: center;
+}
+
+.sec-gamer-img, .sec-gamer-img img,.sec-gamer-info{
+    width: 100%;
+}
+
+
+/* we are gamer section end */
+
+/* Online Games Funny Videos */
+
+.online-game{
+    flex-direction: column;
+}
+
+.online-game-zone{
+    font-size: 15px;
+}
+
+.game-1st,.game-2nd{
+    font-size: 28px;
+}
+
+.head-last{
+    font-size: 12px;
+}
+
+.grid-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.single-product p{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+.grid-container img{
+    width: 70%;
+    border-radius: 16px;
+}
+/* Online Games Funny Videos start end */
+
+/* Careers-section start */
+
+
+
+}
