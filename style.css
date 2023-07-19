@@ -365,3 +365,46 @@ nav{
     font-size: 18px;
 }
 
+/* Careers-section end */
+
+.review-container{
+
+    min-height: 500px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.all-review{
+    border: 1px solid red;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-width: 200px;
+    display: flex;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .btn-div img{
+    width: 60px;
+  
+  }
+  
+  .btn-div-button{
+    padding: 10px 16px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    color: #0B0223;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
