@@ -138,6 +138,22 @@
 
 /* Careers-section start */
 
+.careers-container{
+    flex-direction: column;
+}
 
+.three-dev{
+    padding: 44px;
+}
 
+.three-dev p{
+    font-size: 12px;
+}
+
+.careers-image img{
+    width: 500px;
+}
+.careers-btn button{
+    font-size: 8px;
+}
 }
