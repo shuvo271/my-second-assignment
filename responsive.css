@@ -161,7 +161,35 @@
 /* Careers-section end */
 
 
-/* }review section start */
 
 
+.btn-section{
+    padding: 50px 0;
+}
+
+.btn-div{
+    margin: 0 0 30px 0;
+}
+
+.btn-div img{
+    width: 40px;
+}
+
+.btn-div-button{
+    font-size: 15px;;
+}
+
+
+.footer-services div, .footer-icons div, .footer-term div{
+    gap: 12px;
+  }
+
+  .text-final{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Work Sans;
+  }
+  .spt-alph{
+    color: #ff42a5;
+  }
 }

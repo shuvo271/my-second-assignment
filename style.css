@@ -368,38 +368,44 @@ nav{
 /* Careers-section end */
 
 .review-container{
-
     min-height: 500px;
-    margin-top: 50px;
+    /* margin: 50px auto; */
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .all-review{
-    border: 1px solid red;
+
     max-width: 1400px;
     margin: 0 auto;
     min-width: 200px;
-    display: flex;
 }
 
 .btn-section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 75%;
     gap: 10px;
     margin: 0 auto;
   }
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    border-radius: 300px;
+    border-radius: 300px;
+    margin: 0 20px 30px 10px;
+}
   
-  .btn-div img{
+.btn-div img{
     width: 60px;
-  
-  }
+
+}
   
   .btn-div-button{
-    padding: 10px 16px;
-    margin-left: 5px;
+    /* padding: 10px 16px; */
+    margin: 0 5px;
     background-color: transparent;
     border: none;
     color: #0B0223;
@@ -407,4 +413,43 @@ nav{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+
+  .footer{
+    background-color: #0B0223;
+    color: white;
+  }
+
+  .footer-container{
+    padding: 50px;
+  }
+
+  .footer-logo, .footer-services, .footer-services div, .footer-icons, .footer-icons div, .footer-term, .footer-term div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-services, .footer-icons, .footer-term{
+    width: 80%;
+    gap: 20px;
+    margin: 0 auto 30px auto;
+  }
+
+  .footer-services div, .footer-icons div, .footer-term div{
+    gap: 20px;
+  }
+
+  .footer-logo{
+    margin-bottom: 20px;
+  }
+  .text-final{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Work Sans;
+  }
+  .spt-alph{
+    color: #ff42a5;
   }
