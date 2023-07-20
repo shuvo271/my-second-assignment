@@ -262,6 +262,7 @@ nav{
     font-family: Work Sans;
     font-size: 48px;
     font-weight: 700;
+    
 }
 
 .game-2nd{
@@ -272,6 +273,7 @@ nav{
     font-family: Work Sans;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .head-last{
@@ -279,6 +281,7 @@ nav{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 48px;
 }
 
  .single-product img{
@@ -292,6 +295,13 @@ nav{
     display: block;
     margin: 0 auto;
 }
+
+.single-product > .opacity:hover{
+    background-color:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; 
+    opacity:0.2;
+    border-radius:16px;
+}
+
 
 /* Online Games Funny Videos start end */
 
@@ -363,13 +373,16 @@ nav{
 
 .careers-second, .careers-third{
     font-size: 18px;
+    line-height: 1.6;
 }
+
 
 /* Careers-section end */
 
+/* review section start */
+
 .review-container{
     min-height: 500px;
-    /* margin: 50px auto; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -404,7 +417,6 @@ nav{
 }
   
   .btn-div-button{
-    /* padding: 10px 16px; */
     margin: 0 5px;
     background-color: transparent;
     border: none;
@@ -415,6 +427,9 @@ nav{
     line-height: normal;
   }
 
+ /* review section end */
+
+ /* Footer section start here */
 
   .footer{
     background-color: #0B0223;
@@ -438,6 +453,15 @@ nav{
     margin: 0 auto 30px auto;
   }
 
+  #btn-special{
+    border: 1px solid #ff42a5;
+    
+  }
+
+  #btn-special2{
+    color: #ff42a5;
+  }
+
   .footer-services div, .footer-icons div, .footer-term div{
     gap: 20px;
   }
@@ -453,3 +477,5 @@ nav{
   .spt-alph{
     color: #ff42a5;
   }
+
+  /* Footer section end */

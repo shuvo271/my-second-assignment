@@ -25,6 +25,10 @@
     
 }
 
+.logo-container{
+    width: 60%;
+}
+
 /* nav-end */
 
 /* banner section start */
@@ -158,10 +162,14 @@
     font-size: 8px;
 }
 
+.careers-second, .careers-third{
+    line-height: 1.6;
+}
+
 /* Careers-section end */
 
 
-
+/* Footer section start */
 
 .btn-section{
     padding: 50px 0;
@@ -192,4 +200,7 @@
   .spt-alph{
     color: #ff42a5;
   }
+
+
+  /* Footer section end */
 }
